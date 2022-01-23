@@ -7779,11 +7779,11 @@ asH(a){switch(a.a){case"/":return A.iP(new A.Z0(),a,t.z)
 case"/register":return A.iP(new A.Z1(),a,t.z)
 case"/login":return A.iP(new A.Z2(),a,t.z)
 case"/main_menu":return A.iP(new A.Z3(),a,t.z)
-case"/create/store":return A.iP(new A.Z4(),a,t.z)
-case"/create/table":return A.iP(new A.Z5(),a,t.z)
-case"/create/waiter":return A.iP(new A.Z6(),a,t.z)
-case"/manage/tables":return A.iP(new A.Z7(),a,t.z)
-case"/manage/waiters":return A.iP(new A.Z8(),a,t.z)
+case"/create_store":return A.iP(new A.Z4(),a,t.z)
+case"/create_table":return A.iP(new A.Z5(),a,t.z)
+case"/create_waiter":return A.iP(new A.Z6(),a,t.z)
+case"/manage_tables":return A.iP(new A.Z7(),a,t.z)
+case"/manage_waiters":return A.iP(new A.Z8(),a,t.z)
 default:throw A.c(B.zv)}},
 Z0:function Z0(){},
 Z1:function Z1(){},
@@ -35518,7 +35518,7 @@ case 2:return A.P(null,r)}})
 return A.Q($async$$0,r)},
 $S:17}
 A.a5X.prototype={
-$1(a){if(a==="OK")A.agB(this.a,"/create/store",new A.a5W(),t.X)},
+$1(a){if(a==="OK")A.agB(this.a,"/create_store",new A.a5W(),t.X)},
 $S:53}
 A.a5W.prototype={
 $1(a){return!1},
@@ -35543,10 +35543,10 @@ A.a63.prototype={
 $0(){},
 $S:0}
 A.a64.prototype={
-$0(){A.uu(this.a,"/manage/tables",t.X)},
+$0(){A.uu(this.a,"/manage_tables",t.X)},
 $S:0}
 A.a65.prototype={
-$0(){A.uu(this.a,"/manage/waiters",t.X)},
+$0(){A.uu(this.a,"/manage_waiters",t.X)},
 $S:0}
 A.lW.prototype={
 aw(){return new A.Kb(B.k)}}
@@ -35554,7 +35554,7 @@ A.Kb.prototype={
 R(a,b){var s=t.F
 return A.kv(A.hz(A.VD(A.b([A.jU(A.b([A.j2(A.b([B.us,A.ag4(B.f0,new A.a67(b),null)],s),B.dR,B.M),A.akt($.amx()[1])],s),B.am,B.M)],s)),null,null))}}
 A.a67.prototype={
-$0(){A.uu(this.a,"/create/table",t.X)},
+$0(){A.uu(this.a,"/create_table",t.X)},
 $S:0}
 A.lX.prototype={
 aw(){return new A.Kc(B.k)}}
@@ -35562,7 +35562,7 @@ A.Kc.prototype={
 R(a,b){var s=t.F
 return A.kv(A.hz(A.VD(A.b([A.jU(A.b([A.j2(A.b([B.us,A.ag4(B.f0,new A.a68(b),null)],s),B.dR,B.M),A.akt($.amy()[1])],s),B.am,B.M)],s)),null,null))}}
 A.a68.prototype={
-$0(){A.uu(this.a,"/create/waiter",t.X)},
+$0(){A.uu(this.a,"/create_waiter",t.X)},
 $S:0}
 A.ml.prototype={
 aw(){var s=null
