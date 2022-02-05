@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script>
-    (function(){
-      var redirect = sessionStorage.redirect;
-      delete sessionStorage.redirect;
-      if (redirect && redirect != location.href) {
-        history.replaceState(null, null, redirect);
-      }
-    })();
-  </script>
   <!--
     If you are serving your web app in a path other than the root, change the
     href value below to reflect the base path you are serving from.
@@ -46,7 +37,7 @@
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '1171661372';
+    var serviceWorkerVersion = '1165896985';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
