@@ -41505,23 +41505,34 @@ A.a8c.prototype={
 $1(a){if($.AQ)new A.dC().ot()},
 $S:68}
 A.a88.prototype={
-$0(){var s=0,r=A.L(t.P),q=this,p,o
-var $async$$0=A.H(function(a,b){if(a===1)return A.I(b,r)
-while(true)switch(s){case 0:s=!$.AQ?2:3
+$0(){var s=0,r=A.L(t.P),q=1,p,o=[],n=this,m,l,k,j
+var $async$$0=A.H(function(a,b){if(a===1){p=b
+s=q}while(true)switch(s){case 0:s=!$.AQ?2:3
 break
 case 2:s=4
 return A.D(new A.aa4().rE(),$async$$0)
-case 4:s=5
+case 4:q=6
+s=9
 return A.D(new A.dC().ot(),$async$$0)
-case 5:$.AQ=!0
+case 9:$.AQ=!0
 $.av7().toString
-s=6
-return A.D(new A.hi().jT(q.a),$async$$0)
-case 6:case 3:if($.AQ){p=q.a
-o=t.X
-if($.l7!=null)A.m2(p,"/main_menu",new A.a89(),o)
-else A.m2(p,"/create_store",new A.a8a(),o)}else A.m2(q.a,"/welcome",new A.a8b(),t.X)
-return A.J(null,r)}})
+m=n.a
+s=10
+return A.D(new A.hi().jT(m),$async$$0)
+case 10:if($.AQ){l=t.X
+if($.l7!=null)A.m2(m,"/main_menu",new A.a89(),l)
+else A.m2(m,"/create_store",new A.a8a(),l)}q=1
+s=8
+break
+case 6:q=5
+j=p
+A.m2(n.a,"/welcome",new A.a8b(),t.X)
+s=8
+break
+case 5:s=1
+break
+case 8:case 3:return A.J(null,r)
+case 1:return A.I(p,r)}})
 return A.K($async$$0,r)},
 $S:153}
 A.a89.prototype={
